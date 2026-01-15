@@ -41,6 +41,60 @@ public class Main {
         Car C = new Car();
         System.out.println("Car's speed"+ C.speed);// parent
         C.display();
+        System.out.println("\n----------------------------");
+        System.out.println("\n----------------------------");
+        System.out.println("\n----------------------------");
+        Vehicle vehicle = new Vehicle();
+        System.out.println(vehicle.draw());
+        System.out.println(vehicle.erase());
+       vehicle.setVisible(false);
+       vehicle.move(120,3999);
+       vehicle.move(40000,3930);
+       vehicle.setSize(12,45);
+       vehicle.setColor("Yellow");
+       Cars cars = new Cars();
+        System.out.println("\n----------------------------");
+        System.out.println("\n----------------------------");
+       System.out.println(cars.draw());
+
+        System.out.println(cars.erase());
+        cars.setVisible(false);
+        //inheritance Parent Vehicle and child Cars and have some method overriding
+        cars.move(400,500);
+        cars.setSize(10,12);
+        cars.setColor("Blue!!");
+        Boat boat = new Boat();
+     System.out.println(boat.draw());
+     System.out.println(boat.erase());
+        System.out.println("\n----------------------------");
+        System.out.println("\n----------------------------");
+        System.out.println("\n----------------------------");
+        Ferry ferry = new Ferry();
+
+        System.out.println(ferry.erase());
+        System.out.println(ferry.erase());
+        ferry.setVisible(true);
+        ferry.move(23,45);
+        ferry.setSize(78,90);
+        ferry.setColor("Red!");
+        System.out.println("\n----------------------------");
+        System.out.println("\n----------------------------");
+        SuperFerry Sup = new SuperFerry();
+        System.out.println(Sup.draw());
+        System.out.println(Sup.erase());
+        Sup.setVisible(true);
+        Sup.move(20000,30000);
+        Sup.setSize(4000,49494);
+        Sup.setColor("Green");
+        Sup.moveRelative(50,60);
+
+
+
+
+        //vehicle.setVisible(false);
+
+
+
 
 
     }
