@@ -89,10 +89,45 @@ public class Main {
         Sup.moveRelative(50,60);
 
 
+        System.out.println("(((((((((((((((((((()))))))))))))))))");
+        Encapsulation En = new Encapsulation();
+        En.setId(123456789);
+        En.setUserName("CHEAVSARIN!!!");
+        En.setEmail("cheavsarin@gmail.com");
+        En.setPassword("sarin123456789");
+        System.out.println("Enter your ID:"+ En.getId());
+        System.out.println("Enter your UserName:"+ En.getUserName());
+        System.out.println("Enter your Email :"+ En.getEmail());
+        System.out.println("Enter your PassWord:"+ En.getPassword());
+
+        System.out.println("(((((((((((((((((((()))))))))))))))))");
+Encapsulation En1 = new Encapsulation();
+En1.setId(2);
+En1.setUserName("Ling");
+En1.setEmail("cheavsarin65@gmail.com");
+En1.setPassword("sarin123456788");
+System.out.println("Enter your ID:"+ En1.getId());
+System.out.println("Enter your UserName:"+ En1.getUserName());
+System.out.println("Enter your Email:"+ En1.getEmail());
+System.out.println("Enter your PassWord:"+ En1.getPassword());
 
 
-        //vehicle.setVisible(false);
-
+System.out.println("=========================");
+Exercise_Encapsulation EE = new Exercise_Encapsulation();
+EE.setName("Ly Mey");
+EE.setAge(29);
+EE.setCountry("Cambodia");
+System.out.println("This is your Name:"+EE.getName());
+System.out.println("This is your Age:"+EE.getAge());
+System.out.println("This is your Country:"+ EE.getCountry());
+        System.out.println("=========================");
+        Exercise_Encapsulation EE1 = new Exercise_Encapsulation();
+        EE1.setName("Rothna");
+        EE1.setAge(19);
+        EE1.setCountry("Canada");
+        System.out.println("This is your Name:"+EE1.getName());
+        System.out.println("This is your Age:"+EE1.getAge());
+        System.out.println("This is your Country:"+ EE1.getCountry());
 
 
 
