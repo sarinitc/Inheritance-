@@ -6,6 +6,12 @@ public class Main {
         Animal objAnimal = new Animal();
         objAnimal.eat();
         objAnimal.sleep();
+        objAnimal.sound();
+
+        objAnimal.sound();
+
+
+
         System.out.println("\n----------------");
         System.out.println("Reptile child of Animal");
         Reptile objReptile = new Reptile();
@@ -127,7 +133,32 @@ System.out.println("This is your Country:"+ EE.getCountry());
         EE1.setCountry("Canada");
         System.out.println("This is your Name:"+EE1.getName());
         System.out.println("This is your Age:"+EE1.getAge());
-        System.out.println("This is your Country:"+ EE1.getCountry());
+
+
+        System.out.println("================================");
+       Supers Su = new Supers();
+       Su.printName();
+        /// Dynamic polymorphism ---> override method
+
+        /// Vehicle chile and Polymorphism parent   .
+        //Parant can create object child so parent can as a child
+        // so this is call Polymorphism
+        Vehicles vehicles = new Polymorphism();
+        vehicles.getInfo();
+        vehicles.getInfo("Sarin");
+        vehicles.getInfo(2);
+        System.out.println("===============================================");
+        vehicles.getInfo("Sarin Oveloading ");
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++=");
+
+        // Static polymorphism --> method overloading
+        Vehicles V = new Vehicles();
+        V.getInfo();
+        V.getInfo("Sarin");
+        V.getInfo(2);
+
+
+
 
 
 
